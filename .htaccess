@@ -1,0 +1,7 @@
+//if you are using mamp or xampp make sure to change baseDir to your project folder name
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /baseDir/
+    RewriteRule ^.*$ index.php [END]
+</IfModule>
